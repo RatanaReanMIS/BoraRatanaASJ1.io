@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Using Single form control in HTML</title>
+    <!--link file stylesheet css-->
+    <link rel="stylesheet" href="/CSS/form.css">
+
+</head>
+<body style="background-color: rgb(220, 205, 235);">
+    <center>
+    <form>
+       <h1>STUDENT INFORMATION FORM</h1>
+       <label>Enter Username:</label>
+       <input type="text" placeholder="please input your name"required> <br><br>
+       <label>Enter Password:</label>
+       <input type="password"placeholder="please input your password"required> <br><br>
+       <label>Enter Email:</label>
+       <input type="email"placeholder="please input your email"required> <br><br>
+       <label>Enter Age:</label>
+       <input type="age"placeholder="please input your age"required> <br><br>
+      
+
+       <!-- Radio Button -->
+
+        <label>Gender:</label>
+        <label><input type="radio" name="gender" value="male"checked>Male</label>
+        <label><input type="radio" name="gender" value="female"checked>feMale</label> <br><br>
+
+        <!-- checkbox -->
+
+        <label>Subject:</label>
+        <label> <input type="checkbox" name="Subject" value="C#"/> C# </label>
+        <label> <input type="checkbox" name="Subject" value="C#"/> Java </label>
+        <label> <input type="checkbox" name="Subject" value="C#"/> PHP </label>
+        <label> <input type="checkbox" name="Subject" value="C#"/> C++ </label> <br>
+        <label> <input type="checkbox" name="Subject" value="C#"/> A++ </label>
+        <label> <input type="checkbox" name="Subject" value="C#"/> AC </label>
+        <label> <input type="checkbox" name="Subject" value="C#"/> DS </label> <br><br>
+
+        <!-- combo box select -->
+
+        <label> Choose a school:</label>
+        <select> 
+            <option value="SETEC"> SETEC </option>
+            <option value="RUPP"> RUPP </option>
+            <option value="NUM"> NUM </option>
+            <option value="NIE"> NIE </option>
+        </select><br><br>
+
+        <!-- Type Description -->
+
+        <label> Description:</label> <br>
+        <textarea rows="4" cols="30"placeholder="Write your comment here..."></textarea>
+        <br><br> <input type="submit" value="Log in">&nbsp;&nbsp;
+        <input type="reset" value="Clear">
+        
+    </center>
+    </form>
+</body>
+</html>
